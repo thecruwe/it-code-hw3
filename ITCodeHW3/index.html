@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>HW3</title>
+</head>
+<body>
+    <h1 style="color: white">ToDo - HomeWork #3</h1>
+    <div class="container">
+      <div class="leftSection">
+            <form id="form">
+              <p style="color: white">Заголовок задачи:</p>
+              <input class="textInput" type="text" class="form-control" name="" id="textInput" />
+              <br />
+              <p style="color: white">Дата выполнения:</p>
+              <input class="dateInput" type="date" class="form-control" name="" id="dateInput" />
+              <br />
+              <p style="color: white">Описание задачи:</p>
+              <textarea name="post" id="textarea" cols="35" rows="10"></textarea>
+              <br> <br>
+              <button type="submit">Публикация</button>
+              <div id="msgError"></div>
+            </form>
+      </div>
+      <div class="rightSection">
+        <h3 style="color: white">Твои задания:</h3>
+        <div id="posts">
+            <div>
+              </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
