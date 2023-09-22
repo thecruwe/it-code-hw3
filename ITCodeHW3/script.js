@@ -37,7 +37,7 @@ let acceptData = () => {
   createPost();
 };
 
-let createPost = () => { //либо из прям совсем простого и, наверное, в рамках стажировки, не совсем показательного, то это смена значения свойства "contenteditable" на true у текста, дабы была возможность редактивования, но это прям совсем детский сад)
+let createPost = () => { 
     posts.innerHTML = "";
     data.map((x,  y) => {
         return (posts.innerHTML += `
